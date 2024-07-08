@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677,#4e085f);
+    background: linear-gradient(135deg, #153677,#085f5ffa);
     padding: 10px;
 }
 .shopping-items{
@@ -76,7 +76,7 @@ ul li::before{
 ul li.checked{
     color: #555;
     text-decoration: line-through;
-    background-color: #153677;
+    background-color: #1563774f;
 }
 ul li span{
       position: absolute;
