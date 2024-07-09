@@ -44,7 +44,7 @@ input{
     background: transparent;
     padding: 10px;
 }
-button{
+#add{
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -52,7 +52,17 @@ button{
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 20px;
+}
+#clearList{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #45daff;
+    color: #f30505;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
 }
 ul li{
     list-style: none;
