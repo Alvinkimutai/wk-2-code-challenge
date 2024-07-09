@@ -1,3 +1,4 @@
+//ge
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 let shoppingList = [];
@@ -14,12 +15,18 @@ function addTask(){
     }
     inputBox.value = "";
 }
+function clearList(){
+    localStorage.removeItem("shoppingList");
+    listContainer.innerHTML = "";
+     shoppingList = [];
+}
 //function to update the list according to the user input 
 function updateListUI(){
     listContainer.innerHTML = "";
     shoppingList.forEach((item, index) => {
         let li = document.createElement("li");
         li.textContent = item;
+
 
         let span = document.createElement("span");
         span.textContent = "\u00d7";
